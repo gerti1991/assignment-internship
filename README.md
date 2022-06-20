@@ -7,27 +7,22 @@ Given two arrays (`array_a` and `array_b`) with integer numbers, write a functio
 #### Example 1:
 * `array_a = [1, 2, 3, 8, 100, 4, 65, 9, 7]`
 * `array_b = [5, 6, 43, 8, 39, 74, 9, 100]`
-* `Expected output should contain: [1, 2, 3, 8, 100, 4, 65, 9, 7, 5, 6, 43, 39, 74]`
+* `Expected output: [1, 2, 3, 8, 100, 4, 65, 9, 7, 5, 6, 43, 39, 74]`
 
 #### Example 2:
 * `array_a = [9, 8, 7, 6, 5, 4, 3, 2, 1]`
 * `array_b = [100, 90, 80, 70, 60, 50]`
-* `Expected output should contain: [9, 8, 7, 6, 5, 4, 3, 2, 1, 100, 90, 80, 70, 60, 50]`
+* `Expected output: [9, 8, 7, 6, 5, 4, 3, 2, 1, 100, 90, 80, 70, 60, 50]`
 
 #### Example 3:
 * `array_a = [9, 8, 7, 6, 5, 4, 3, 2, 1]`
 * `array_b = [9, 8, 7, 6, 5, 4, 3]`
-* `Expected output should contain: [9, 8, 7, 6, 5, 4, 3, 2, 1]`
-
-#### Example 4:
-* `array_a = []`
-* `array_b = [9, 8, 7, 6, 5, 4, 3]`
-* `Expected output should contain: [9, 8, 7, 6, 5, 4, 3]`
+* `Expected output: [9, 8, 7, 6, 5, 4, 3, 2, 1]`
 
 ---
 
 ## Requirements:
-* Use only arrays as data structures. No set, trees or maps.
-* Ordering of elements in the returned array is *not* important.
-* There are no duplicated elements in either array.
-* Aim for an optimal solution.
+- Use only arrays as data structures.  Sets, trees or maps are not allowed.
+- Positioning of elements in the returned array is *not* important.
+- There are no duplicated elements in either arrays.
+- Aim for an optimal solution.
