@@ -5,19 +5,19 @@ Given two arrays (`array_a` and `array_b`) with integer numbers, write a functio
 ## Examples:
 
 #### Example 1:
-* array_a = [1, 2, 3, 8, 100, 4, 65, 9, 7]
-* array_b = [5, 6, 43, 8, 39, 74, 9, 100]
-* Expected output: [1, 2, 3, 8, 100, 4, 65, 9, 7, 5, 6, 43, 39, 74]
+* `array_a = [1, 2, 3, 8, 100, 4, 65, 9, 7]`
+* `array_b = [5, 6, 43, 8, 39, 74, 9, 100]`
+* `Expected output: [1, 2, 3, 8, 100, 4, 65, 9, 7, 5, 6, 43, 39, 74]`
 
 #### Example 2:
-* array_a = [9, 8, 7, 6, 5, 4, 3, 2, 1]
-* array_b = [100, 90, 80, 70, 60, 50]
-* Expected output: [9, 8, 7, 6, 5, 4, 3, 2, 1, 100, 90, 80, 70, 60, 50]
+* `array_a = [9, 8, 7, 6, 5, 4, 3, 2, 1]`
+* `array_b = [100, 90, 80, 70, 60, 50]`
+* `Expected output: [9, 8, 7, 6, 5, 4, 3, 2, 1, 100, 90, 80, 70, 60, 50]`
 
 #### Example 3:
-* array_a = [9, 8, 7, 6, 5, 4, 3, 2, 1]
-* array_b = [9, 8, 7, 6, 5, 4, 3]
-* Expected output: [9, 8, 7, 6, 5, 4, 3, 2, 1]
+* `array_a = [9, 8, 7, 6, 5, 4, 3, 2, 1]`
+* `array_b = [9, 8, 7, 6, 5, 4, 3]`
+* `Expected output: [9, 8, 7, 6, 5, 4, 3, 2, 1]`
 
 ---
 
