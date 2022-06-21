@@ -1,0 +1,14 @@
+array_a = [1, 2, 3, 8, 100, 4, 65, 9, 7]
+
+array_b = [5, 6, 43, 8, 39, 74, 9, 100]
+
+
+def merge(a, b):
+    union = a
+    for e in b:
+        if e not in union:
+            union.append(e)
+    return union
+
+
+print(merge(array_a, array_b))
